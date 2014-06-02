@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Import PureCSS -->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <!-- End PureCSS -->
+
+    <title>OpenSpace</title>
+    <style>
+      body {
+        background-image: url('./hackerspace.png');
+        background-size: 100%;
+        background-attachment: fixed;
+      }
+      .navbar {
+        padding: 1em;
+      }
+      .navbar .logo {
+        display: inline-block;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 90px;
+        transform: rotate(-15deg);
+        -moz-transform: rotate(-15deg);
+        -webkit-transform: rotate(-15deg);
+        -o-transform: rotate(-15deg);
+      }
+      .navbar .logo:hover {
+        transform: rotate(-20deg);
+        -moz-transform: rotate(-20deg);
+        -webkit-transform: rotate(-20deg);
+        -o-transform: rotate(-20deg);
+      }
+      .navbar .logo img {
+        width: 100px;
+        height: 100px;
+      }
+      .navbar .links {
+        display: inline-block;
+        vertical-align: top;
+        height: 114px;
+        line-height: 114px;
+      }
+      .navbar .links a {
+        font-family: 'ExoMedium';
+        font-size: 1.5em;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        margin: 15px;
+        text-decoration: none;
+        color: #D1D3D4;
+      }
+      .navbar .links a:hover {
+        border-bottom: 2px solid #F26522;
+      }
+      .content {
+        background: rgba(209,211,212,.6);
+        border-radius: 3px;
+        padding: 2em;
+        line-height: 1.5em;
+      }
+      .content img {
+        width: 100%
+      }
+      .footer {
+        width: 100%;
+        height: 20px;
+      }
+      .title {
+        display: table;
+        margin: 8em auto;
+        margin-bottom: 10em;
+      }
+      .titleCenter {
+        display: inline-block;
+        vertical-align: top;
+        height: 150px;
+        line-height: 150px;
+      }
+      .titlep1, .titlep2 {
+        color: #58595B;
+        font-family: 'ExoMedium';
+        font-weight: bold;
+        font-size: 3em;
+        border-radius: 10px;
+        background: white;
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+        position: relative;
+        z-index:0;
+      }
+      .titlep1 {
+        padding: 5px 1em 5px .5em;
+        margin-right: -.7em;
+      }
+      .titlep2 {
+        padding: 5px .5em 5px 1em;
+        margin-left: -.7em;
+      }
+      .logo {
+        display: inline-block;
+        height: 150px;
+        width: 150px;
+        border-radius: 150px;
+        border: 10px solid white;
+        background: white;
+        position: relative;
+        z-index: 99999;
+      }
+      .title img {
+        width: 150px;
+        height: 150px;
+        z-index: 99999;
+      }
+      .content .padding {
+        padding: 1em;
+      }
+      @font-face {
+        font-family: 'ExoMedium';
+        src: url('./Exo-Medium.otf');
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pure-g navbar">
+      <div class="pure-u">
+        <div class="logo"><img src="logo.png"></div>
+        <div class="links">
+          <a href="index.html">Home</a>
+          <a href="index.html">Members</a>
+          <a href="index.html">Blog</a>
+          <a href="index.html">Join</a>
+        </div>
+      </div>
+    </div>
+    <div style="width:100%">
+      <div class="title">
+        <div class="titleCenter">
+          <div class="titlep1">Open</div>
+        </div>
+        <div class="logo">
+          <img src="./logo.png">
+        </div>
+        <div class="titleCenter">
+          <div class="titlep2">Space</div>
+        </div>
+      </div>
+    </div>
+    <div class="pure-g">
+      <div class="pure-u-1-6">
+      </div>
+      <div class="pure-u-2-3 content">
+        <img src="learn.png">
+        <div class="pure-g">
+          <div class="pure-u-1-2">
+            <img src="listen.jpg"></img>
+          </div>
+          <div class="pure-u-1-2">
+            <div class="padding">
+              The HackerSpace for Southern Illinois <br><br>
+              Our focus:
+              <ul>
+                <li>Education</li>
+                <li>Technology</li>
+                <li>Personal Growth</li>
+                <li>Individual Development</li>
+                <li>Collaboration</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris consectetur tristique ligula ac luctus. Duis commodo molestie orci. Proin massa justo, consequat ut gravida id, mattis non lorem. Vestibulum interdum elementum nunc, sit amet cursus purus pretium nec. Suspendisse consequat lectus commodo sapien vulputate dignissim. Sed sed rutrum dui. Vestibulum rutrum diam vel fringilla rhoncus. Pellentesque sit amet convallis diam. Nam laoreet, felis vel porta aliquet, tellus augue tristique leo, sed vestibulum augue diam sit amet purus. Phasellus et dictum justo, congue scelerisque urna. Donec dictum nisl vehicula, blandit ligula a, elementum magna.
+
+        Suspendisse volutpat vehicula tellus non commodo. Aliquam non suscipit odio, id venenatis quam. Proin lacinia eleifend leo in suscipit. Vestibulum ut nunc mattis dui vestibulum varius eget ac felis. Proin et congue lorem. Fusce eget porta sapien, ut pulvinar diam. Vestibulum sodales tristique turpis sed sollicitudin. Proin vel eleifend sem. Etiam viverra eros neque, vel egestas mauris tristique quis. In sollicitudin ultricies aliquet. Aliquam quis libero lectus. Etiam porta felis ultricies, rutrum orci a, varius neque. Praesent egestas vulputate malesuada. Etiam posuere eros eget orci tristique pharetra.
+
+        Sed justo lectus, feugiat sit amet diam interdum, eleifend molestie metus. Ut rhoncus sit amet magna ac condimentum. Sed euismod elit at quam congue, sed tempus turpis dictum. Suspendisse consequat ullamcorper lectus sed ultrices. Sed nec tempor dui. Mauris eget congue justo. Suspendisse eu massa ante. Phasellus luctus dignissim nunc. Fusce ac urna lorem. Praesent viverra lorem nec molestie dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec malesuada velit magna, a commodo justo faucibus at. Sed ut nulla vel ante vestibulum tempor sed vel erat.
+
+        Donec enim magna, condimentum vitae enim quis, accumsan semper leo. Proin tincidunt leo cursus odio molestie, quis varius quam euismod. Phasellus adipiscing fringilla egestas. Nunc interdum felis eros, quis rutrum ligula euismod ac. Pellentesque sapien erat, ullamcorper placerat diam at, auctor adipiscing lacus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam a interdum nunc, sed tristique erat.
+
+        Aliquam luctus rhoncus nisi non varius. Nulla et arcu vel ante interdum porttitor ac ut arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed dapibus velit eget quam posuere posuere. Pellentesque condimentum, mi eu laoreet sodales, lacus magna pharetra leo, ac viverra justo nunc faucibus magna. Duis tincidunt eu nulla in luctus. Integer condimentum odio in gravida blandit. Curabitur posuere ipsum ut odio rhoncus, nec cursus leo rhoncus. Integer et ultrices urna. Pellentesque a orci felis. Nullam euismod viverra neque et blandit. Cras venenatis non metus pharetra viverra. Donec facilisis, nisi eget porttitor vulputate, elit ipsum vehicula mi, a eleifend nunc lorem sed tortor. Pellentesque aliquam blandit euismod. Vivamus convallis suscipit velit, et porta nisl aliquam eget.</p>
+      </div>
+    </div>
+    <div class="footer">
+    </div>
+  </body>
+</html>
